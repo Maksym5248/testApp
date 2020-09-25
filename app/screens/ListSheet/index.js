@@ -15,7 +15,7 @@ export const ListSheet = ({ navigation }: ListSheetProps) => {
   return (
     <View style={s.container}>
       <Text>ListSheet</Text>
-      <Icon name="plus-thick" />
+      <Icon />
     </View>
   );
 };
