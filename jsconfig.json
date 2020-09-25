@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "baseUrl": "./",
+        "paths": {
+            "~/components": ["./app/components"],
+            "~/constants": ["./app/constants"],
+            "~/navigation": ["./app/navigation"],
+            "~/screens": ["./app/screens"],
+            "~/styles": ["./app/styles"],
+            "~/types": ["./app/types"],
+            "~/utils": ["./app/utils"],
+        }
+    },
+    "include": [
+        "app/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "bin",
+        "__tests__",
+        "ios",
+        "android"
+    ]
+}
