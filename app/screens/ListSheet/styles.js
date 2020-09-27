@@ -1,7 +1,7 @@
 import { StyleSheet } from 'react-native';
 import { colors } from '~/styles';
 
-const ITEM_HEIGHT = 40;
+const ITEM_HEIGHT = 60;
 
 export const s = StyleSheet.create({
   container: {
@@ -43,6 +43,30 @@ export const s = StyleSheet.create({
   },
   arrowRight: {
     transform: [{ rotate: '180deg' }],
+    marginRight: 5,
+  },
+  itemContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    paddingHorizontal: 20,
+    height: ITEM_HEIGHT,
+    width: '100%',
+  },
+  itemContainerLeft: {
+    height: ITEM_HEIGHT,
+    justifyContent: 'space-between',
+    paddingVertical: 10,
+  },
+  itemContainerRight: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  dot: {
+    height: 8,
+    width: 8,
+    borderRadius: 4,
+    backgroundColor: colors.burgundy,
     marginRight: 5,
   },
 });
