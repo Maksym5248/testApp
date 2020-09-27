@@ -33,6 +33,23 @@ export const ListSheet = ({ navigation }: ListSheetProps) => {
           containerStyle={s.plusButton}
         />
       </View>
+      <View style={s.dateContainer}>
+        <Icon
+          name="arrow-back-ios"
+          size={10}
+          color={colors.textSecondary}
+          containerStyle={s.arrowContainer}
+          style={s.arrowLeft}
+        />
+        <Text>March 2020</Text>
+        <Icon
+          name="arrow-back-ios"
+          size={10}
+          color={colors.textSecondary}
+          containerStyle={s.arrowContainer}
+          style={s.arrowRight}
+        />
+      </View>
     </View>
   );
 };
