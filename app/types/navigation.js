@@ -7,5 +7,6 @@ type NavigationOptions = {
 
 export type Navigation = {
   navigate: (screenName: string, params: Object) => void,
+  goBack: () => void,
   setOptions: (options: NavigationOptions) => ElementType,
 };
